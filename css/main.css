@@ -1,0 +1,29 @@
+
+:root {
+    --grayish-blue: hsl(217, 28%, 15%);
+    --bg-blue: hsl(218, 28%, 13%);
+    --ftr-blue: hsl(216, 53%, 9%);
+    --dark-blue: hsl(219, 30%, 18%);
+    --cyan-clr: hsl(176, 68%, 64%);
+    --blue-clr: hsl(198, 60%, 50%);
+    --light-red: hsl(0, 100%, 63%);
+    --white-clr: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-clr);
+}
+
+body {
+    font-size: 0.875rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: var(--white-clr);
+}
