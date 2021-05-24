@@ -116,3 +116,45 @@ body {
     padding: 0.5rem 1rem 0rem 1rem;
     font-size: 0.9rem;
 }
+
+.motivation {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 83rem;
+}
+
+
+.motivation__image {
+    width: 660px;
+}
+
+.motivation-text {
+    padding: 7.7rem 0 0 4rem;
+}
+
+.motivation__heading {
+    font-size: 2.8rem;
+    padding-right: 3rem;
+    line-height: normal;
+}
+
+.motivation__paragraph-up {
+    padding-top: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.motivation__paragraph-down {
+    padding-top: 0.8rem;
+    font-size: 1.1rem;
+}
+
+.motivation__link {
+    display: inline-block;
+    padding-top: 1.5rem;
+    font-size: 1.1rem;
+    color: var(--cyan-clr);
+    text-decoration: underline;
+    
+}
