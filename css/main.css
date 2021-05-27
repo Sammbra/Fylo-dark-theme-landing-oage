@@ -1,160 +1,209 @@
-
 :root {
-    --grayish-blue: hsl(217, 28%, 15%);
-    --bg-blue: hsl(218, 28%, 13%);
-    --ftr-blue: hsl(216, 53%, 9%);
-    --dark-blue: hsl(219, 30%, 18%);
-    --cyan-clr: #65e2d9;
-    --blue-clr: #339ecc;
-    --light-red: hsl(0, 100%, 63%);
-    --white-clr: hsl(0, 0%, 100%);
+  --grayish-blue: hsl(217, 28%, 15%);
+  --bg-blue: hsl(218, 28%, 13%);
+  --ftr-blue: hsl(216, 53%, 9%);
+  --dark-blue: hsl(219, 30%, 18%);
+  --cyan-clr: #65e2d9;
+  --blue-clr: #339ecc;
+  --light-red: hsl(0, 100%, 63%);
+  --white-clr: hsl(0, 0%, 100%);
+  --pale-gray: hsl(0, 0%, 80%);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    color: var(--white-clr);
+  text-decoration: none;
+  color: var(--white-clr);
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 body {
-    font-size: 0.875rem;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
-    color: var(--white-clr);
-    background-color: var(--bg-blue);
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  color: var(--white-clr);
+  background-color: var(--bg-blue);
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 5rem 5.5rem 4.5rem 5.5rem;
-    font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 5.5rem 4.5rem 5.5rem;
+  font-family: "Raleway", sans-serif;
 }
 
 .header__image {
-    width: 185px;
+  width: 185px;
 }
 
 .header__ul {
-    display: flex;
-    font-size: 1rem;
-    align-items: center;
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
 }
 
 .header__list {
-    padding: 0 2rem;
+  padding: 0 2rem;
 }
 
 .header__list:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto; 
-    max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 50rem;
 }
 
 .hero__image {
-    width: 49rem;
+  width: 49rem;
 }
 
 .hero__heading {
-    font-size: 2.7rem;
-    padding-top: 2rem;
+  font-size: 2.7rem;
+  padding-top: 2rem;
 }
 
 .hero__paragraph {
-    font-size: 1.36rem;
-    padding: 1.8rem 5rem 0 5rem;
+  font-size: 1.36rem;
+  padding: 1.8rem 5rem 0 5rem;
 }
 
 .hero__btn {
-    margin-top: 1.8rem;
+  margin-top: 1.8rem;
 }
 
 .main-container {
-    padding-top: 11.8rem; 
+  padding-top: 11.8rem;
 }
 
 .advantages {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5rem;
-    max-width: 62.5rem;
-    margin: 0 auto;
-    text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  max-width: 62.5rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .advantages-card {
-    padding: 0 1rem;
+  padding: 0 1rem;
 }
 
 .advantages-card__image {
-    height: 90px
+  height: 90px;
 }
 
 .advantages-card__heading {
-    font-size: 1.4rem;
-    padding-top: 0.9rem;
+  font-size: 1.4rem;
+  padding-top: 0.9rem;
 }
 
 .advantages-card__paragraph {
-    padding: 0.5rem 1rem 0rem 1rem;
-    font-size: 0.9rem;
+  padding: 0.5rem 1rem 0rem 1rem;
+  font-size: 0.9rem;
 }
 
 .motivation {
-    padding: 10rem 0;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 83rem;
+  padding: 10rem 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 83rem;
 }
 
-
 .motivation__image {
-    width: 660px;
+  width: 660px;
 }
 
 .motivation-text {
-    padding: 7.7rem 0 0 4rem;
+  padding: 7.7rem 0 0 4rem;
 }
 
 .motivation__heading {
-    font-size: 2.8rem;
-    padding-right: 3rem;
-    line-height: normal;
+  font-size: 2.8rem;
+  padding-right: 3rem;
+  line-height: normal;
 }
 
 .motivation__paragraph-up {
-    padding-top: 1.5rem;
-    font-size: 1.1rem;
+  padding-top: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .motivation__paragraph-down {
-    padding-top: 0.8rem;
-    font-size: 1.1rem;
+  padding-top: 0.8rem;
+  font-size: 1.1rem;
 }
 
 .motivation__link {
-    display: inline-block;
-    padding-top: 1.5rem;
-    font-size: 1.1rem;
-    color: var(--cyan-clr);
-    text-decoration: underline;
-    
+  display: inline-block;
+  padding-top: 1.5rem;
+  font-size: 1.1rem;
+  color: var(--cyan-clr);
+  border-bottom: 1px solid var(--cyan-clr);
+  width: 12rem;
+  display: flex;
+  align-items: center;
+}
+
+.motivation__arrow-container {
+  display: inline-block;
+  padding-left: 0.5rem;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 2.5rem;
+  max-width: 79rem;
+  padding: 2rem 0;
+}
+
+.reviews-card {
+  background-color: var(--dark-blue);
+  border-radius: 0.5rem;
+  padding: 2.8rem 1.8rem 1.5rem 1.8rem;
+}
+
+.reviews-card__paragraph {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.reviews-card__info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
+
+.reviews-card__image {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.reviews-card__name {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.reviews-card__position {
+  font-size: 0.6rem;
+  color: var(--pale-gray);
 }
