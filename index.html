@@ -7,8 +7,8 @@
   <script src="https://kit.fontawesome.com/75d715321e.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 </head>
@@ -110,12 +110,14 @@
       </section>
 
       <section class="enter">
-        <h2 class="enter__heading">Get early access today</h2>
+        <h2 class="enter__heading heading">Get early access today</h2>
         <p class="enter__paragraph"> It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-        <form action="">
-          <input type="email" class="enter__email" name="email">
-        </form>
-        <a class="enter__btn btn" href="#">Get Started For Free</a>
+        <div class="enter__form">
+          <form action="">
+          <input type="email" class="enter__email" name="email" placeholder="email@example.com">
+          </form>
+          <a class="enter__btn btn" href="#">Get Started For Free</a>
+        </div>
       </section>
     </div>
   </main>

@@ -7,7 +7,7 @@
   --blue-clr: #339ecc;
   --light-red: hsl(0, 100%, 63%);
   --white-clr: hsl(0, 0%, 100%);
-  --pale-gray: hsl(0, 0%, 80%);
+  --pale-gray: rgb(187, 189, 189);
 }
 
 * {
@@ -206,4 +206,47 @@ body {
 .reviews-card__position {
   font-size: 0.6rem;
   color: var(--pale-gray);
+}
+
+.enter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 58rem;
+  background-color: var(--grayish-blue);
+  padding: 3rem;
+  border-radius: 0.5rem;
+  transform: translateY(11.5rem);
+}
+
+.enter__heading {
+  font-size: 2.2rem;
+}
+
+.enter__paragraph {
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem 3.5rem;
+}
+
+.enter__form {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 1.5rem;
+}
+
+.enter__email {
+  border-radius: 5rem;
+  padding: 1rem 11rem;
+  color: var(--pale-gray);
+  border: none;
+  display: flex;
+}
+
+.enter__btn {
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
 }
