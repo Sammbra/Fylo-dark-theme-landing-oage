@@ -30,7 +30,6 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
   color: var(--white-clr);
-  background-color: var(--bg-blue);
 }
 
 header {
@@ -93,6 +92,10 @@ header {
 
 .hero__btn {
   margin-top: 1.8rem;
+}
+
+main {
+  background-color: var(--bg-blue);
 }
 
 .main-container {
@@ -159,7 +162,7 @@ header {
 }
 
 .motivation__link {
-  display: inline-block;
+  /* display: inline-block; */
   padding-top: 1.5rem;
   font-size: 1.1rem;
   color: var(--cyan-clr);
@@ -170,7 +173,7 @@ header {
 }
 
 .motivation__arrow-container {
-  display: inline-block;
+  /* display: inline-block; */
   padding-left: 0.5rem;
 }
 
