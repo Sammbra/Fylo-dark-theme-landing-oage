@@ -33,6 +33,15 @@ body {
   background-color: var(--bg-blue);
 }
 
+header {
+  background-color: var(--grayish-blue);
+  background-image: url('../images/bg-curvy-desktop.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: contain;
+  background-position: left bottom -2rem;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -173,12 +182,15 @@ body {
   gap: 2.5rem;
   max-width: 79rem;
   padding: 2rem 0;
+  background-image: url('../images/bg-quotes.png');
+  background-repeat: no-repeat;
 }
 
 .reviews-card {
   background-color: var(--dark-blue);
   border-radius: 0.5rem;
   padding: 2.8rem 1.8rem 1.5rem 1.8rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .reviews-card__paragraph {
@@ -219,6 +231,7 @@ body {
   padding: 3rem;
   border-radius: 0.5rem;
   transform: translateY(11.5rem);
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .enter__heading {
@@ -322,5 +335,5 @@ footer {
 
 .footer-attribution {
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem;
 }
