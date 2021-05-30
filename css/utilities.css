@@ -5,9 +5,11 @@
 
 .btn {
     display: inline-block;
+    color: var(--white-clr);
     padding: 1rem 6.3rem;
     font-size: 1.1rem;
     font-weight: 600;
     background: linear-gradient(90deg, rgba(101,226,217,1) 0%, rgba(51,158,204,1) 100%);
     border-radius: 5rem;
 }
+

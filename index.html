@@ -32,7 +32,7 @@
     </div>
   </header>
   <main>
-    <div class="main-container">
+    < class="main-container">
       <section class="advantages">
         <div class="advantages-card">
           <div class="advantages-card__image-container">
@@ -112,12 +112,12 @@
       <section class="enter">
         <h2 class="enter__heading heading">Get early access today</h2>
         <p class="enter__paragraph"> It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-        <div class="enter__form">
           <form action="">
-          <input type="email" class="enter__email" name="email" placeholder="email@example.com">
+            <div class="enter__form" >
+              <input type="email" class="enter__email" name="email" placeholder="email@example.com" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+              <button class="enter__btn btn">Get Started For Free</button>
+          </div>
           </form>
-          <a class="enter__btn btn" href="#">Get Started For Free</a>
-        </div>
       </section>
     </div>
   </main>
