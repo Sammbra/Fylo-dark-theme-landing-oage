@@ -130,7 +130,7 @@ main {
 }
 
 .motivation {
-  padding: 10rem 0;
+  padding: 10rem 1rem;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -184,7 +184,7 @@ main {
   margin: 0 auto;
   gap: 2.5rem;
   max-width: 79rem;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   background-image: url('../images/bg-quotes.png');
   background-repeat: no-repeat;
 }

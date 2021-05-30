@@ -1,264 +1,317 @@
 
-@media(max-width: 700px) {
-    
-    header {
-        background-image: url('../images/bg-curvy-mobile.svg');
-        background-position: left bottom -0.5rem;
-    }
+@media (max-width: 1050px) {
+  .motivation {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .header {
-         padding: 2rem;
-         justify-content: space-around;
-    }
+  .motivation__image-container {
+    display: flex;
+    justify-content: center;
+  }
 
-    .header__image {
-        width: 100px;
-    }
+  .enter__form {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .header__ul {
-        font-size: 0.8rem;
-    }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .header__list {
-        padding: 0 0.6rem;
-    }
-    
-    .hero {
-        padding: 2rem;
-    }
+  .footer-logo__image-container {
+    padding: 17rem 0 0 2rem;
+  }
 
-    .hero__image {
-        width: 20rem;
-    }
+  .footer-container {
+    padding: 2rem;
+    gap: 1.5rem;
+  }
 
-    .hero__heading {
-        font-size: 1.5rem;
-    }
+  .footer-info {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
 
-    .hero__paragraph {
-        font-size: 0.9rem;
-        padding: 1rem 0.3rem;
-    }
-
-    .btn {
-        padding: 1rem 5rem;
-        font-size: 0.9rem;
-    }
-
-    .hero__btn {
-        margin-top: 1rem;
-    }
-
-    .main-container {
-        padding-top: 7rem;
-    }
-
-    .advantages {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .advantages-card__image {
-        height: 4rem;
-    }
-
-    .advantages-card__heading {
-        font-size: 1.2rem;
-    }
-
-    .motivation {
-        display: flex;
-        flex-direction: column;
-        padding: 8rem 0;
-    }
-
-    .motivation__image {
-        width: 20rem;
-    }
-
-    .motivation__image-container {
-        display: flex;
-        justify-content: center;
-    }
-
-    .motivation-text {
-        padding: 2rem 0;
-    }
-
-    .motivation__heading {
-        font-size: 1rem;
-    }
-    .motivation__paragraph-up,
-    .motivation__paragraph-down {
-        font-size: 0.8rem;
-    }
-
-    .motivation__link {
-        font-size: 0.8rem;
-        width: 9rem;
-    }
-
-
-    .reviews {
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-        padding: 2rem;
-    }
-
-    .reviews-card {
-        padding: 1.5rem 1.5rem 1.3rem 1.5rem;
-    }
-
-    .reviews-card__paragraph {
-        font-size: 0.7rem;
-        line-height: 1.9;
-    }
-
-    .enter {
-        padding: 2rem 1rem;
-    }
-
-    .enter__heading {
-        font-size: 1.5rem;
-    }
-
-    .enter__paragraph {
-        padding: 1rem;
-        font-size: 0.9rem;
-    }
-
-    .enter__form {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .enter__email {
-        padding: 1rem 4rem;
-    }
-
-    .footer-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer-logo__image-container {
-        padding: 17rem 0 0 2rem;
-    }
-
-    .footer-container {
-        padding: 2rem;
-        gap: 1.5rem;
-    }
-
-    .footer-info {
-        flex-direction: column;
-        padding-top: 1rem;
-    }
-
-    .footer-icons {
-        justify-content: cetner;
-        align-items: center;
-    }
-    
+  .footer-icons {
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+  }
 
 }
 
-@media(max-width: 330px) {
-    .header {
-        padding: 1rem;
-        flex-direction: column;
-    }
+@media (max-width: 750px) {
+  header {
+    background-image: url("../images/bg-curvy-mobile.svg");
+    background-position: left bottom -0.5rem;
+  }
 
-    .header__image-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .header {
+    padding: 2rem;
+    justify-content: space-around;
+  }
 
-    .header__image {
-        width: 100px;
-    }
+  .header__image {
+    width: 100px;
+  }
 
-    .header__ul {
-        flex-direction: column;
+  .header__ul {
+    font-size: 0.8rem;
+  }
 
-    }
+  .header__list {
+    padding: 0 0.6rem;
+  }
 
-    .header__list {
-        padding: 0.3rem;
-    }
+  .hero {
+    padding: 2rem;
+  }
 
-    .hero__image {
-        width: 15rem;
-    }
+  .hero__image {
+    width: 20rem;
+  }
 
-    .hero__heading {
-        font-size: 1.5rem;
-    }
+  .hero__heading {
+    font-size: 1.5rem;
+  }
 
-    .hero__paragraph {
-        font-size: 1rem;
-    }
+  .hero__paragraph {
+    font-size: 0.9rem;
+    padding: 1rem 0.3rem;
+  }
 
-    .btn {
-        padding: 1rem 4rem;
-    }
-    
-    .motivation {
-        padding: 3rem 1rem;
-    }
+  .btn {
+    padding: 1rem 4rem;
+    font-size: 0.9rem;
+  }
 
-    .motivation__image {
-        width: 15rem;
-    }
+  .hero__btn {
+    margin-top: 1rem;
+    padding: 1rem 6rem;
+  }
 
-    .motivation-text {
-        padding: 1rem;
-    }
+  .main-container {
+    padding-top: 7rem;
+  }
 
-    .motivation__heading {
-        font-size: 1.5rem;
-    }
+  .advantages {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .reviews {
-        padding: 1rem;
-    }
+  .advantages-card__image {
+    height: 4rem;
+  }
 
-    .enter__heading {
-        font-size: 1.5rem;
-    }
+  .advantages-card__heading {
+    font-size: 1.2rem;
+  }
 
-    .enter__paragraph {
-        padding: 1rem;
-    }
+  .motivation {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 2rem;
+  }
 
-    .enter__email {
-        padding: 1rem 2rem;
-    }
+  .motivation__image {
+    width: 20rem;
+  }
 
-    .enter__btn {
-        padding: 1rem 2rem;
-    }
+  .motivation__image-container {
+    display: flex;
+    justify-content: center;
+  }
 
-    .footer-logo__image-container {
-        padding-left: 1rem;
-    }
+  .motivation-text {
+    padding: 2rem 0;
+  }
 
-    .footer-container {
-        padding: 1rem;
-        gap: 1.5rem;
-    }
+  .motivation__heading {
+    font-size: 1rem;
+  }
+  .motivation__paragraph-up,
+  .motivation__paragraph-down {
+    font-size: 0.8rem;
+  }
 
-    .footer-info {
-        flex-direction: column;
-        padding-top: 1rem;
-    }
+  .motivation__link {
+    font-size: 0.8rem;
+    width: 9rem;
+  }
 
-    .footer-icons {
-        justify-content: cetner;
-        align-items: center;
-    }
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-position: top left 35px;
+    max-width: 30rem;
+  }
 
+  .reviews-card {
+    padding: 1.5rem 1.5rem 1.3rem 1.5rem;
+  }
+
+  .reviews-card__paragraph {
+    font-size: 0.7rem;
+    line-height: 1.9;
+  }
+
+  .enter {
+    padding: 2rem 1rem;
+    width: 30rem;
+  }
+
+  .enter__heading {
+    font-size: 1.5rem;
+  }
+
+  .enter__paragraph {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .enter__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .enter__email {
+    padding: 1rem 4rem;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-logo__image-container {
+    padding: 17rem 0 0 2rem;
+  }
+
+  .footer-container {
+    padding: 2rem;
+    gap: 1.5rem;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+  }
 }
 
+@media(max-width: 500px) {
+  .enter {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .header {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .header__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__image {
+    width: 100px;
+  }
+
+  .header__ul {
+    flex-direction: column;
+  }
+
+  .header__list {
+    padding: 0.3rem;
+  }
+
+  .hero__image {
+    width: 15rem;
+  }
+
+  .hero__heading {
+    font-size: 1.5rem;
+  }
+
+  .hero__paragraph {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 1rem 4rem;
+  }
+
+  .motivation {
+    padding: 3rem 1rem;
+  }
+
+  .motivation__image {
+    width: 15rem;
+  }
+
+  .motivation-text {
+    padding: 1rem;
+  }
+
+  .motivation__heading {
+    font-size: 1.5rem;
+  }
+
+  .reviews {
+    padding: 1rem;
+  }
+
+  .enter {
+    width: initial;
+  }
+
+  .enter__heading {
+    font-size: 1.5rem;
+  }
+
+  .enter__paragraph {
+    padding: 1rem;
+  }
+
+  .enter__email {
+    padding: 1rem 2rem;
+  }
+
+  .enter__btn {
+    padding: 1rem 2rem;
+  }
+
+  .footer-logo__image-container {
+    padding-left: 1rem;
+  }
+
+  .footer-container {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+  }
+}
